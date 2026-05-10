@@ -1,2 +1,35 @@
 
 /* Your CSS Code here. */
+/* holder styles */
+.holder {
+    /* Step 1: Make the container a flexbox */
+    display: flex;
+    
+    /* Step 2: Center horizontally along the main axis */
+    justify-content: center;
+    
+    /* Step 3: Center vertically along the cross axis */
+    align-items: center;
+    
+    /* Requirement: Take up the full viewport width and height */
+    width: 100vw;
+    height: 100vh;
+    
+    /* Optional: Reset margin on the body to prevent scrollbars */
+    margin: 0;
+}
+
+/* item-1 styles */
+.item-1 {
+    /* Requirement: Fixed dimensions and color */
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    
+    /* Styling for the text inside the box (optional) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
